@@ -9,6 +9,7 @@ margin: 0;
 padding: 0;
 display: flex;
 justify-content: center;
+height: 100vh;
 }
 
 .container{
@@ -16,18 +17,16 @@ justify-content: center;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    height: 100vh;
     width: 80%;
-    background-color: aqua;
+    height: 100%;
     justify-content: center;
+    
     
 }
 
 .cards {
-    width: 25%;
     margin: 0;
     padding: 0;
-    background-color: red;
-    border: 1px solid gray;
+    border: 1px dotted lightgray;
     
 }
