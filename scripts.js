@@ -26,7 +26,7 @@ function clearGrid() {
 }
 
 
-//Color a "card", depending on two checkbox - Rainbow and - Opacity
+//Color a "card", depending on two checkbox: Rainbow and Opacity
 const divContainer = document.querySelector(".container");
 divContainer.addEventListener("mouseover", (e)=>{
 
@@ -51,9 +51,8 @@ divContainer.addEventListener("mouseover", (e)=>{
     }
 })
 
-
+//Resize the GRID and clear it
 const btnResize = document.querySelector(".resize button");
-
 btnResize.addEventListener("click", () =>{
     let gridSize = Number(prompt("Enter the size of the new grid - between 2 and 100"));
     
